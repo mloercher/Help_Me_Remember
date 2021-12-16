@@ -1,0 +1,19 @@
+{
+  "name": "help_me_remember",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mloercher/Help_Me_Remember.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mloercher/Help_Me_Remember/issues"
+  },
+  "homepage": "https://github.com/mloercher/Help_Me_Remember#readme"
+}
