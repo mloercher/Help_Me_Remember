@@ -4,29 +4,16 @@ const express = require("express");
 const PORT = process.env.PORT || 3001;
 const app = express();
 const htmlRoutes = require('./routes/htmlRoutes');
-// const apiRoutes = require('./routes/apiRoutes');
+const apiRoutes = require('./routes/apiRoutes');
+
 
 //parse incoming string or array data
 app.use(express.urlencoded({extended: true }));
 //parse incoming JSON data
 app.use(express.json());
-// app.use('/api', apiRoutes);
-// app.use('/', htmlRoutes);
-const { notes } = require("./Develop/db/db.json");
 app.use(express.static('public'));
-//
-
-
-//GET request to index.html
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Develop/public/index.html'));
-});
-
-//GET request to notes.html
-app.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Develop/public/notes.html'));
-});
-
+app.use('/', htmlRoutes);
+app.use('/api', apiRoutes);
 
 
 //listen function
