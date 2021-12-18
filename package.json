@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mloercher/Help_Me_Remember/issues"
   },
-  "homepage": "https://github.com/mloercher/Help_Me_Remember#readme"
+  "homepage": "https://github.com/mloercher/Help_Me_Remember#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
