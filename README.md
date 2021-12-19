@@ -4,6 +4,9 @@
 
 Help_Me_Remember is a handy notetaker to help you keep track of tasks, appointments and to-do's. Help clear your mind AND remember what you need to get done!
 
+
+![homescreen](public/assets/screen.png);
+
 ```
 GIVEN a note-taking application
 WHEN I open the Note Taker
@@ -19,4 +22,7 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
+### Links:
+Heroku: https://dashboard.heroku.com/apps/floating-refuge-18912
+
 
