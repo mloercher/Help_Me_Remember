@@ -5,7 +5,7 @@
 Help_Me_Remember is a handy notetaker to help you keep track of tasks, appointments and to-do's. Help clear your mind AND remember what you need to get done!
 
 
-![homescreen](public/assets/screen.png);
+![homescreen](public/assets/screen.png)
 
 ```
 GIVEN a note-taking application
