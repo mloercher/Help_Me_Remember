@@ -21,19 +21,19 @@ router.post("/notes", (req,res) => {
   res.json(req.body);
 })
 
-// // DELETE /api/notes/:id
-// router.delete("/api/notes/:id", (req,res) => {
-//   var id = req.params.id;
-//   fs.readFileSync('../../db/db.json', JSON.parse(db));
-//   if (req.params.id !== id) {
-//     fs.writeFileSync('../../db/db.json', JSON.stringify(db));
-//     res.json(req.body);
-//   }
+// DELETE /api/notes/:id
+router.delete("/notes/:id", (req,res) => {
+  var id = req.params.id;
+  fs.readFileSync('../../db/db.json', JSON.parse(db));
+  if (req.params.id !== id) {
+    fs.writeFileSync('../../db/db.json', JSON.stringify(db));
+    res.json(req.body);
+  }
   
   
 
 
 
-// })
+})
 
 module.exports = router;
